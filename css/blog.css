@@ -1,1 +1,54 @@
-/*# sourceMappingURL=blog.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  background-color: #fff;
+}
+#header .navbar-collapse {
+  flex-grow: 0;
+}
+#header a {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #394149;
+}
+#header a:hover {
+  color: #f58a07;
+}
+#header ul {
+  padding-top: 12px;
+}
+#header li {
+  padding: 0px 8px;
+}
+#header a.active {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 106.5%;
+  color: #f58a07;
+  background: rgba(245, 138, 7, 0.1);
+  border-radius: 31px;
+  padding: 18px 32px;
+}
+#header a.active:hover {
+  color: #f58a07;
+}
+@media (max-width: 991px) {
+  #header a.active {
+    padding: 18px 0;
+    border-radius: 0px;
+    background-color: #fff;
+    color: #394149;
+  }
+}
+#header a.activ {
+  color: #063255;
+  font-weight: 800;
+  font-size: 25px;
+}/*# sourceMappingURL=blog.css.map */

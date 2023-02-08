@@ -1,1 +1,110 @@
-/*# sourceMappingURL=index.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  background-color: #fff;
+}
+#header .navbar-collapse {
+  flex-grow: 0;
+}
+#header a {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  color: #394149;
+}
+#header a:hover {
+  color: #f58a07;
+}
+#header ul {
+  padding-top: 12px;
+}
+#header li {
+  padding: 0px 8px;
+}
+#header a.active {
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 106.5%;
+  color: #f58a07;
+  background: rgba(245, 138, 7, 0.1);
+  border-radius: 31px;
+  padding: 18px 32px;
+}
+#header a.active:hover {
+  color: #f58a07;
+}
+@media (max-width: 991px) {
+  #header a.active {
+    padding: 18px 0;
+    border-radius: 0px;
+    background-color: #fff;
+    color: #394149;
+  }
+}
+#header a.activ {
+  color: #063255;
+  font-weight: 800;
+  font-size: 25px;
+}
+
+#fist_section {
+  background-color: #dceaf5;
+  padding-top: 150px;
+}
+#fist_section .fist_section_title {
+  font-weight: 600;
+  font-size: 64px;
+  line-height: 72px;
+  letter-spacing: -0.03em;
+  color: #1d3444;
+  padding-bottom: 12px;
+}
+#fist_section .fist_section_rext {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 30px;
+  color: #5b5b5b;
+  max-width: 571px;
+  padding-bottom: 32px;
+}
+#fist_section a.active {
+  padding: 18px 32px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 106.5%;
+  text-transform: capitalize;
+  color: #ffffff;
+  background: #f58a07;
+  border-radius: 27px;
+  text-decoration: none;
+}
+#fist_section a.active:hover {
+  color: #fff;
+  opacity: 0.9;
+}
+#fist_section a {
+  text-decoration: none;
+  padding-left: 40px;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 106.5%;
+  text-transform: capitalize;
+  color: #1d3444;
+}
+#fist_section a:hover {
+  color: #f58a07;
+}
+#fist_section img {
+  width: 100%;
+  padding-top: 70px;
+}
+#fist_section .fist_section_img img {
+  width: 100%;
+  height: 100%;
+}/*# sourceMappingURL=index.css.map */
